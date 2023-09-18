@@ -1,0 +1,40 @@
+@import url("reset.css");
+
+* {
+	color: black;
+}
+
+p {
+	color: green; 
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title {
+	color: rgb(158, 154, 154); 
+}
+
+a.book {
+	color: purple;
+}
+
+.info {
+	color: rgb(58, 151, 151);
+}
+
+.biography {
+	color: brown;
+}
+
+mark {
+	color: rgb(0, 0, 0);
+}
+
+.info a {
+	color: blue;
+}

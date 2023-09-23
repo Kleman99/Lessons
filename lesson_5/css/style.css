@@ -1,0 +1,87 @@
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+
+@font-face{
+	font-family: "ahs";
+	src: 
+		url(../fonts/ahs.woff2) format(woff2),
+		url(../fonts/ahs.woff) format(woff);
+	font-weight: normal;
+	font-display: swap;
+	font-style: normal;
+}
+
+
+body{
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	color: #7D7D7D;
+}
+
+
+* {
+	color: black;
+}
+
+
+.title{
+	color: #37393F;
+	font-size: 30px;
+	font-family: Poppins;
+	font-weight: 600;
+	line-height: 38.10px;
+	word-wrap: break-word
+}
+
+.second-title{
+	color: #37393F;
+	font-size: 40px;
+	font-family: Poppins;
+	font-weight: 700;
+	line-height: 50.80px;
+	word-wrap: break-word
+}
+
+.sub-title{
+	color: #6B77E5;
+	font-size: 20px;
+	font-family: Poppins;
+	font-weight: 600;
+	line-height: 25.40px;
+	word-wrap: break-word
+}
+
+li{
+	color: #7D7D7D;
+	font-size: 18px;
+	font-family: Inter;
+	font-weight: 500;
+	line-height: 26.31px;
+	word-wrap: break-word
+}
+
+
+.text{
+	color: #7D7D7D;
+	font-size: 18px;
+	font-family: Inter;
+	font-weight: 400;
+	line-height: 26.31px;
+	word-wrap: break-word
+}
+
+.text-link{
+	color: #941010;
+	font-size: 25px;
+	font-family: Poppins;
+	font-weight: 400;
+	line-height: 26.31px;
+}
+
+a{
+	font-family: Poppins, cursive;
+	color: goldenrod;
+	text-decoration: underline;
+}

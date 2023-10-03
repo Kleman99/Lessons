@@ -1,0 +1,404 @@
+@import url("reset.css");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:,regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700&display=swap");
+
+@font-face{
+	font-family: "Causten";
+	src: 
+		url("../fonts/Causten-Regular.woff2") format("woff2"),
+		url("../fonts/Causten-Regular.woff") format("woff"); 
+	font-weight: normal;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Core Sans C";
+	src: 
+		url("../fonts/CoreSansC-65Bold.woff2") format("woff2"),
+		url("../fonts/CoreSansC-65Bold.woff") format("woff"); 
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}
+
+
+body{
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	color: #7D7D7D;
+	line-height: 1.46;
+}
+
+/*===============  project consulting  ===============*/
+/*===============  screen 1  ===============*/
+
+
+.screen-1 {
+	max-width: 830px;
+	padding-top: 50px;
+	margin: 0 auto;
+}
+
+.screen-1 p{
+	margin-bottom: 35px;
+}
+
+.consulting-title-2 {
+	margin-bottom: 15px;
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.27;
+}
+
+.consulting-list-1 li{
+	margin-bottom: 25px;
+	margin-left: 16px;
+	max-width: 431px;
+	max-height: 130px;
+}
+.consulting-list-1 {
+	margin-bottom: 35px;
+}
+
+.consulting-list-2 li{
+	margin-bottom: 25px;
+	margin-left: 16px;
+	max-width: 431px;
+	max-height: 130px;
+}
+.consulting-list-2 {
+	margin-bottom: 35px;
+}
+
+/*===============  screen 2  ===============*/
+
+.screen-2 {
+	max-width: 1218px;
+	padding: 50px 0;
+	margin: 0 auto;
+}
+
+.mini-title {
+	text-align: center;
+	font-size: 0px;
+}
+
+.template-information{
+	display: inline-block;
+	color: #37393F;
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-left: 6px;
+	margin-bottom: 16px;
+	vertical-align: middle;
+}
+
+.image{
+	padding-top: 4px;
+	width: 12px;
+}
+
+.consulting-title-1{
+	color: #37393F;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.21;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.marker{
+	color: #40DDB6;
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.46;
+}
+
+.consulting-title-3{
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.21;
+	margin-bottom: 11px;
+}
+
+.consulting-title-4{
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.big-marker{
+	color: #40DDB6;
+	font-family: Poppins;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.opacity100{
+	height: 100px;
+}
+
+.opacity32{
+	height: 32px;
+}
+
+.opacity24{
+	height: 24px;
+}
+
+
+/*===============  project jewellery  ===============*/
+
+.project-jewellery {
+	max-width: 1103px;
+	padding: 50px 0;
+	margin: 0 auto;
+}
+
+.block{
+	font-size: 0px;
+	padding-bottom: 50px;
+}
+
+.info{
+	display: inline-block;
+}
+
+.jewellery-title-2 {
+	color: #D58417;
+	font-size: 20px;
+	font-family: Cormorant Infant;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.0;
+	margin-top: 70px;
+	margin-bottom: 27px;
+	width: 128px;
+}
+.jewellery-title-1 {
+	color: #000;
+	font-family: Cormorant Infant;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 1.0;
+	width: 503px;
+	margin-bottom: 31px;
+}
+.jewellery-info {
+	color: #606060;
+	font-family: Cormorant Infant;
+	font-style: normal;
+	font-weight: 700;
+	width: 489px;
+	font-size: 30px;
+	line-height: 1.40;
+}
+
+.pic-1 {
+	margin-left: 75px;
+	margin-top: 85px;
+	margin-bottom: 84px;
+	width: 187px;
+}
+.pic-2 {
+	margin-left: 20px;
+	width: 318px;
+}
+
+/*===============  project euphoria  ===============*/
+
+
+.project-euphoria {
+	max-width: 1240px;
+	padding: 50px 0;
+	margin: 0 auto;
+}
+.title {
+	font-size: 0px;
+}
+
+.pic{
+	margin-top: 2px;
+	width: 6px;
+	height: 28px;
+}
+
+.marker-2{
+	color: #807D7E;
+	font-family: Causten;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 33.5px;
+}
+
+.title-euphoria-1 {
+	display: inline-block;
+	color: #3C4242;
+	font-family: Core Sans C;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 33.5px;
+	margin-left: 16px;
+	margin-bottom: 30px;
+}
+.euphoria-info p{
+	max-width: 1219px;
+	color: #807D7E;
+	font-family: Causten;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 33.5px;
+	letter-spacing: 0.4px;
+	margin-left: 21px;
+	margin-bottom: 20px;
+}
+.sub-title {
+	color: #807D7E;
+	font-family: Core Sans C;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 33.5px;
+	margin-left: 21px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+/*===============  wine  ===============*/
+
+
+.wine {
+	max-width: 980px;
+	padding: 50px 0;
+	margin: 0 auto;
+	color: #324a44;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.8;
+}
+.wine-title {
+	color: #dd8c23c2;
+	font-size: 70px;
+	font-family: Cormorant Infant;
+	font-style: normal;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.photos {
+	font-size: 0px;
+	text-align: center;
+}
+.pict-1,
+.pict-3 {
+	width: 123px;
+	height: 500px;
+	opacity: 0.9;
+}
+.pict-1{
+	margin-right: 117px;
+}
+.pict-2 {
+	width: 500px;
+	height: 500px;
+	border-radius: 35px;
+}
+.pict-3 {
+	margin-left: 117px;
+}
+.wine-sub-title {
+	color: #dd8c23c2;
+	font-size: 70px;
+	font-family: Cormorant Infant;
+	font-style: normal;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 10px;
+}
+p{
+	margin-bottom: 12px;
+}
+.wine-title-3 {
+	color: #847e76c2;
+	font-size: 25px;
+	font-family: Cormorant Infant;
+	font-style: normal;
+	font-weight: 700;
+	margin-bottom: 12px;
+	text-decoration: underline;
+}
+.wine-title-4{
+	color: #3e3d3b;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	margin: 15px 20px;
+}
+
+
+.variant1-2-3{
+	display: inline-block;
+	font-size: 0px;
+}
+
+.v1,
+.v2,
+.v3 {
+	display: inline-block;
+	background-color: rgba(255, 255, 0, 0.734);
+	width: 300px;
+	font-size: 14px;
+}
+
+.v1{
+	border: 5px solid #3C4242;
+	margin-right: 40px;
+}
+
+.v2{
+	border: 5px dotted #3C4242;
+	box-shadow: 2px 4px 3px 6px #7D7D7D;
+}
+
+.v3{
+	border: 5px dashed #3C4242;
+	box-shadow: inset 0px 0px 12px 2px #7D7D7D;
+	margin-left: 40px;
+}
+
+.v4{
+	text-align: center;
+	width: 600px;
+	height: 200px;
+	overflow: scroll;
+	margin: 40px auto 35px;
+	background-color: rgba(139, 226, 206, 0.734);
+}

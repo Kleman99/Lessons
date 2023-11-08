@@ -1,0 +1,203 @@
+@import url("reset.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:,regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:,regular,600,700&display=swap");
+
+body{
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	color: #000000;
+	font-weight: 700;
+	line-height: 1.46;
+}
+
+/* --- header --- */
+
+.container--settings {
+	max-width: 830px;
+	margin: 0 auto;
+}
+
+.header--fix {
+	position: sticky;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	background: url("../img/texture.jpg") 0 0 / cover no-repeat;
+	padding: 15px;
+	margin-bottom: 31px;
+}
+
+.menu__item {
+	vertical-align: middle;
+	display: inline-block;
+	position: relative;
+	font-size: 15px;
+}
+
+.menu__link {
+	border-radius: 15px;
+	background: linear-gradient(31deg, rgba(79,174,113,1) 16%, rgba(168,168,158,1) 38%);
+	display: inline-block;
+	padding: 15px;
+}
+
+.menu__item:hover .menu__link {
+	background: linear-gradient(31deg, rgba(79,174,113,1) 44%, rgba(168,168,158,1) 79%);
+}
+
+.menu__item:hover .menu-of-goods {
+	visibility: visible;
+}
+
+.menu-of-goods {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	padding-top: 5px;
+	color: #000;
+	visibility: hidden;
+}
+
+.menu-of-goods__item {
+	display: inline-block;
+	position: relative;
+}
+
+.menu-of-goods__link {
+	border-radius: 15px;
+	background: linear-gradient(31deg, rgba(79,174,113,1) 16%, rgba(168,168,158,1) 38%);
+	display: inline-block;
+	padding: 15px;
+	width: 100px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.menu-of-goods-category {
+	position: absolute;
+	left: 100%;
+	top: 0;
+	padding-left: 5px;
+	color: #000;
+	visibility: hidden;
+}
+
+.menu-of-goods__item:hover .menu-of-goods__link {
+	background: linear-gradient(31deg, rgba(79,174,113,1) 44%, rgba(168,168,158,1) 79%);
+}
+
+.menu-of-goods__item:hover .menu-of-goods-category {
+	visibility: visible;
+}
+
+.menu-of-goods-category__item {
+	display: inline-block;
+	position: relative;
+}
+
+.menu-of-goods-category__link {
+	border-radius: 15px;
+	background: linear-gradient(31deg, rgba(79,174,113,1) 16%, rgba(168,168,158,1) 38%);
+	display: inline-block;
+	padding: 15px;
+	width: 100px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.menu-of-goods-category__item:hover .menu-of-goods-category__link {
+	background: linear-gradient(31deg, rgba(79,174,113,1) 44%, rgba(168,168,158,1) 79%);
+}
+
+
+/* --- main --- */
+
+
+.staf__section {
+	max-width: 1220px;
+	margin: 0 auto;
+	font-size: 0px;
+}
+.staf__box {
+	margin-bottom: 31px;
+	display: inline-block;
+	position: relative;
+}
+
+.staf__box:hover .box__links{
+	visibility: visible;
+}
+.staf__box:hover::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: rgba(107, 119, 229, 0.7);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.staf__box:not(:last-child){
+	margin-right: 31px;
+}
+.box__photo {
+	display: inline-block;
+}
+.box__links {
+	display: inline-block;
+	position: absolute;
+	bottom: 241px;
+	left: 107px;
+	visibility: hidden;
+}
+
+.box__link:not(:last-child){
+	margin-right: 13px;
+}
+.box__txt {
+	display: inline-block;
+	position: absolute;
+	bottom: 22px;
+	left: 22px;
+	background: #ffffff;
+	width: 341px;
+	padding: 24px 0px;
+}
+
+.txt__name {
+	color: #37393F;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 4px;
+}
+.txt__profession {
+	color: #7D7D7D;
+	text-align: center;
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.35;
+}
+
+
+/* --- footer --- */
+
+
+.footer__txt{
+	background: url("../img/texture.jpg") 0 0 / cover no-repeat;
+	padding: 15px 0px;
+	color: #37393F;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
